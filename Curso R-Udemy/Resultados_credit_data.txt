@@ -1,0 +1,36 @@
+Resultado Credit Data
+--------------------------------------
+0.854 - ZeroR (base line classifier)
+
+0.936 - Naive Bayes - inconsistentes + faltantes + escalonamento
+0.936 - Naive Bayes - inconsistentes + faltantes 
+0.932 - Naive Bayes - sem pré-processamento
+
+0.964 - Arvore - inconsistentes + faltantes + escalonamento
+0.964 - Arvore - inconsistentes + faltantes 
+0.964 - Arvore - sem pré-processamento
+
+0.984 - Random forest 30 - inconsistentes + faltantes + escalonamento 
+0.984 - Random forest 30 - inconsistentes + faltantes 
+0.990 - Random forest 30 - sem pré-processamento
+
+0.924 - CN2 - inconsistentes + faltantes + escalonamento
+0.924 - CN2 - inconsistentes + faltantes 
+0.924 - CN2 - sem pré-processamento
+
+0.973 - kNN 5 - inconsistentes + faltantes + escalonamento
+0.834 - kNN 5 - inconsistentes + faltantes 
+0.834 - kNN 5 - sem pré-processamento 
+
+0.950 - Regressão logistica - inconsistentes + faltantes + escalonamento
+0.950 - Regressão logistica - inconsistentes + faltantes
+0.945 - Regressão logistica - sem pré-processamento
+
+0.990 - SVM kernel radial cost 5.0 - inconsistentes + faltantes + escalonamento
+0.990 - SVM kernel radial cost 5.0 - inconsistentes + faltantes
+?     - SVM kernel radial cost 5.0 - sem pré-processamento
+
+0.994 - Redes neurais (UMA CAMADA COM 100 NEURÔNIOS)   - inconsistentes + faltantes + escalonamento
+0.996 - Redes neurais (DUAS CAMADAS COM 100 NEURÔNIOS) - inconsistentes + faltantes + escalonamento
+0.996 - Redes neurais (DUAS CAMADAS COM 100 NEURÔNIOS) - inconsistentes + faltantes
+0.099 - Redes neurais (DUAS CAMADAS COM 100 NEURÔNIOS) - sem pré-processamento

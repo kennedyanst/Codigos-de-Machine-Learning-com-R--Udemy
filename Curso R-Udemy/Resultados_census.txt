@@ -1,0 +1,43 @@
+Resultados Census
+--------------------------------------
+0.7511 - ZeroR (base line classifier)
+
+0.8214 - Naive Bayes - categóricos + escalonamento  
+0.8216 - Naive Bayes - categóricos
+0.8214 - Naive Bayes - escalonamento  
+0.8216 - Naive Bayes - sem pré-processamento
+
+0.8351 - Arvore - categóricos + escalonamento
+0.8351 - Arvore - categóricos
+0.8351 - Arvore - escalonamento
+0.8351 - Arvore - sem pré-processamento
+
+0.8267 - Random forest 20 ou 30 - categóricos + escalonamento
+0.8240 - Random forest 20 ou 30 - categóricos
+0.8267 - Random forest 20 ou 30 - escalonamento
+0.8240 - Random forest 20 ou 30 - sem pré-processamento
+
+0.8242 - CN2 - categóricos + escalonamento
+0.8242 - CN2 - categóricos
+0.8242 - CN2 - escalonamento
+0.8242 - CN2 - sem pré-processamento
+
+0.8238 - kNN 5 - categóricos + escalonamento
+0.7635 - kNN 5 - categóricos
+?      - kNN 5 - escalonamento
+?      - kNN 5 - sem pré-processamento
+
+0.8373 - Regressão logistica - categóricos + escalonamento
+0.8373 - Regressão logistica - categóricos
+?      - Regressão logistica - escalonamento
+?      - Regressão logistica - sem pré-processamento
+
+0.8413 - SVM kernel radial - categóricos + escalonamento # Se não fizer o escalonamento o algoritmo vai demorar mais para calcular. Se usar o cout pode aumentar a precisão
+?      - SVM kernel radial - categóricos
+0.8413 - SVM kernel radial - escalonamento
+?      - SVM kernel radial - sem-pré-processamento
+
+0.834  - Redes neurais (UMA CAMADA COM 100 NEURÔNIOS) - categórico + escalonamento 
+0.824  - Redes neurais (UMA CAMADA COM 100 NEURÔNIOS) - categórico
+ERROR! - Redes neurais (UMA CAMADA COM 100 NEURÔNIOS) - escalonamento
+ERROR! - Redes neurais (UMA CAMADA COM 100 NEURÔNIOS) - sem pré-processamento

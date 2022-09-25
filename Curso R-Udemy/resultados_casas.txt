@@ -1,0 +1,41 @@
+Resultados base preço casas
+
+R-squared: TREINO / TESTE
+MAE: Taxa de erro em dólar para cima ou para baixo
+-----------------------------------
+
+
+Regresão linear simples
+-----------------------------------
+R-squared: 0.504 / 0.44
+MAE: 167818,7
+
+Regressão linear múltipla
+------------------------------------
+R-squared: 0.700 / 0,689
+MAE: 121595,0
+
+Regressão polinomial
+------------------------------------
+R-squared: 0.798 / 0.769
+MAE: 100163,1
+
+Árvore de decisão
+------------------------------------
+R-squared: 0.714 / 0.645
+MAE: 124742,7
+
+Random forest
+-------------------------------------
+R-squared: 0.975 / 0.875
+MAE: 66140,39
+
+SRV
+-------------------------------------
+R-squared: 0.809 / 0.820
+MAE: 76805,77
+
+Redes neurais (h2o)
+--------------------------------------
+R-squared: 0.974 / 0.848
+MAE: 73499.54

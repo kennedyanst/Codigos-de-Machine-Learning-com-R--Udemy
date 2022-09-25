@@ -1,0 +1,9 @@
+MAIS INFORMAÇÕES
+
+http://kourentzes.com/forecasting/2014/04/19/tstools-for-r/
+
+dados=read.csv('dados_de_teste.csv')
+matriz=as.matrix(dados)
+install.packages("tsutils")
+library("tsutils")
+nemenyi(matriz,conf.int=0.95,plottype='vline')
